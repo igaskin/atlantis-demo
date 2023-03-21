@@ -2,8 +2,6 @@ version: 3
 projects:
 - dir: .
   workspace: default
-  workflow: default
   terraform_version: 1.12
 - dir: .
   workspace: staging
-  workflow: staging
