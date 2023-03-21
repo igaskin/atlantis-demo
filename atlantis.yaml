@@ -2,14 +2,12 @@ version: 3
 projects:
 - dir: .
   workspace: default
-  terraform_version: 1.12
-  delete_source_branch_on_merge: true
+  terraform_version: 1.1.1
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf"]
     enabled: true
 - dir: .
   workspace: staging
-  delete_source_branch_on_merge: true
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf"]
     enabled: true
