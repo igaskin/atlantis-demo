@@ -3,3 +3,7 @@ resource "null_resource" "null_resource_simple" {
     command = "echo Hello Atlantis"
   }
 }
+
+terraform {
+  required_version = "1.1.1"
+}
