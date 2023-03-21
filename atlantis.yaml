@@ -3,7 +3,7 @@ projects:
 - dir: .
   workspace: default
   workflow: default
-  required_version: 1.13
+  terraform_version: 1.13
 - dir: .
   workspace: staging
   workflow: staging
