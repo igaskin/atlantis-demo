@@ -2,7 +2,7 @@ version: 3
 projects:
 - dir: .
   workspace: default
-  terraform_version: 1.12
+  terraform_version: 1.1.1
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf"]
     enabled: true
